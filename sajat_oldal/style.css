@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+}
+
+.navbar-brand {
+    color: #007bff !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #333;
+    margin-right: 16px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #e3f2fd;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.primary-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.hero-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.hero-input {
+    padding: 10px 16px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    margin-right: 8px;
+    width: 60%;
+    max-width: 300px;
+}
+
+.hero-input:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+/* Categories Section */
+.bd-darkblue {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 60px 0;
+}
+
+.secondary-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 16px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.category-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
+}
+
+/* Benefits Section */
+.benefits-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.benefits-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.benefits-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.benefits-section li {
+    display: flex;
+    align-items: start;
+    margin-bottom: 16px;
+}
+
+.benefits-section img {
+    width: 32px;
+    margin-right: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer .navbar-brand {
+    color: #007bff !important;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li a {
+    color: #ddd;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    display: block;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #007bff;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .primary-heading {
+        font-size: 2rem;
+    }
+
+    .secondary-heading {
+        font-size: 1.5rem;
+    }
+
+    .hero-input {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .hero-section {
+        padding: 40px 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
